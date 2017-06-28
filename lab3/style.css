@@ -1,0 +1,60 @@
+body {
+  background-image: url("images/background1.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+
+}
+.imgWrap {margin: 0 auto; width: 84%; padding-bottom: 5%;}
+img {width: 100%;}
+.bodyImg img, .bodyImg2 img {border-radius: 30%; box-shadow: 3px 3px 10px rgba(0, 200, 0, 0.5);}
+.bodyImg p, .bodyImg2 p {padding: 3%; background-color: rgba(255, 255, 255, 0.5);}
+header {width: 100%}
+.logo {width: 20%; margin: 15px auto;}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url("images/img2.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .bodyImg, .bodyImg2 {
+    clear: both;
+    padding: 20px 0;
+  }
+  .logo {width: 20%; margin: 15px auto;}
+  .bodyImg p {margin-left: 45%;}
+  .bodyImg img {
+    width: 40%;
+    float: left;
+  }
+  .bodyImg2 p {margin-right: 45%;}
+  .bodyImg2 img {
+    border-radius: 30%;
+    width: 40%;
+    float: right;
+  }
+
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .bodyImg, .bodyImg2 {
+    clear: both;
+    padding: 20px 0;
+  }
+  .logo {width: 20%; margin: 15px auto;}
+  .bodyImg p {margin-left: 55%; font-size: 1.4em;}
+  .bodyImg img {
+    width: 50%;
+    float: left;
+  }
+  .bodyImg2 p {margin-right: 55%; font-size: 1.4em;}
+  .bodyImg2 img {
+    border-radius: 30%;
+    width: 50%;
+    float: right;
+  }
+}
